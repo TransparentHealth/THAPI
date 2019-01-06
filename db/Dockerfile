@@ -1,0 +1,6 @@
+FROM postgres:9.4
+MAINTAINER  ekivemark
+
+ENV POSTGRES_USER hapidbuser
+ENV POSTGRES_PASSWORD H4p1DBU5er
+ENV POSTGRES_DB fhirdata 
